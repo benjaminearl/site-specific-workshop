@@ -1,9 +1,18 @@
+:root {
+    --bgcolor: #f7f4f0;
+    --brown: #9e6b28;
+    --blue: #3174e0;
+}
+
 * { box-sizing: border-box; }
 
 video {
     max-width: 100%;
 }
 
+a {
+    
+}
 section a {
     border-bottom: 1px solid rgba(0,0,0,0.35) !important;
 }
@@ -15,10 +24,8 @@ body {
     padding: 0;
     font-size: 17px;
     line-height: 24px;
-    background: #e0e0e0;
-    background: #FFFFF2;
-    font-family: 'SF Pro Display','-apple-system','BlinkMacSystemFont','San Francisco','Helvetica Neue','Helvetica','Ubuntu','Roboto','Noto','Segoe UI','Arial',sans-serif;
-    text-transform: lowercase;
+    background: var(--bgcolor);
+    /* font-family: 'SF Pro Display','-apple-system','BlinkMacSystemFont','San Francisco','Helvetica Neue','Helvetica','Ubuntu','Roboto','Noto','Segoe UI','Arial',sans-serif; */
 }
 main {
     margin: 0 auto;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Ultralight - Week 3: Lecture</title>
+		<title>Site-specific: an introduction to making placeful websites</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Note: This format was adapted from the HTML slide format developed for the Web Typography at Letterform Archive: http://motsuka.com/web-typography-workshop -->
@@ -24,7 +24,7 @@
 				<h2>an introduction to making placeful websites</h2>
 			</div>
 			<footer>
-				Kirsten Spruit and Benjamin Earl, 29th & 30th March 2024, Topoló, 
+				Kirsten Spruit and Benjamin Earl, 29th & 30th March 2024, Topolò.
 			</footer>
 	</section>
 
@@ -57,7 +57,260 @@
 
 	<section class="slide">
 		<div class="text">
-			<h2>HTML</h2>
+			<h1>helpful hints</h1>
+			<ul>
+				<li>viewing the source</li>
+				<li>inspecting the element</li>
+				<li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1 style="text-transform: uppercase;">HTML</h1>
+		</div>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1 style="text-transform: uppercase;">HTML</h1>
+			<h1><a href="https://info.cern.ch/hypertext/WWW/TheProject.html">Hypertext</a> Markup Language</h1>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on.</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h1>HYPERLOCAL</h1>
+			<p>As defined in the Oxford Dictionary, "hyperlocal" is an adjective that relates to or focuses on matters concerning a small community or a specific geographical area.</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h1>&lt;h1&gt;HYPERLOCAL&lt;/h1&gt;</h1>
+			<p>&lt;p&gt;As defined in the Oxford Dictionary, "hyperlocal" is an adjective that relates to or focuses on matters concerning a small community or a specific geographical area.&lt;/p&gt;</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<!-- <figure>
+			<img src="media/element-explained.png" alt="">
+		</figure> -->
+		<div class="text">
+			<div class="white-box">
+				<span class="grey-box">
+				<span class="green">&lt;p&gt;</span> <span class="blue">a small community</span> <span class="red">&lt;/p&gt;</span>
+				</span>
+				<br><br>
+				<span class="grey-box">= element</span><br>
+				<span class="green">= opening tag</span><br>
+				<span class="blue">= content</span><br>
+				<span class="red">= closing tag</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h3>html tags</h3>
+			<ul>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div" target="_blank">div</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol" target="_blank">ol</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements" target="_blank">h1</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p" target="_blank">p</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">a</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details" target="_blank">detail</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong" target="_blank">strong</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">audio</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe" target="_blank">iframe</a></li>
+			</ul>
+			more tags <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/portal" target="_blank">here</a>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h1>Nesting</h1>
+			<p>Elements can be placed within other elements. This is called nesting.</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>&lt;p&gt;hyperlocal is an adjective that relates to or focuses on matters concerning a small community&lt;/p&gt;</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>&lt;p&gt;hyperlocal is an adjective that relates to or focuses on matters concerning &lt;strong&gt;<strong>a small community</strong>&lt;/strong&gt;&lt;/p&gt;</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>&lt;section <span style="color:">class="slide"</span>&gt;<br>
+				&ensp;&ensp;&ensp;&ensp;&lt;p&gt;hyperlocal is an adjective that relates to or focuses on matters concerning a small community&lt;/p&gt;
+				&ensp;&ensp;&lt;/div&gt;<br>
+				&lt;/section&gt;</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h1>Attributes</h1>
+			<p>Elements can also have attributes. These contain extra information about the element that won't appear in the content.</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<!-- <figure>
+			<img src="media/attribute-explained.png" alt="">
+		</figure> -->
+		<div class="text">
+			<div class="white-box">
+				<span class="grey-box">
+					<span class="green">&lt;p <span class="yellow">class="big-text"</span></span>&gt; <span class="blue">a small community</span> <span class="red">&lt;/p&gt;</span>
+				</span>
+				<br><br>
+				<span class="grey-box">= element</span><br>
+				<span class="green">= opening tag</span><br>
+				<span class="yellow">= attribute</span><br>
+				<span class="blue">= content</span><br>
+				<span class="red">= closing tag</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>&lt;p class="definition"&gt;hyperlocal is an adjective that relates to or focuses on matters concerning a small community&lt;/p&gt;</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>&lt;p style="color: red;"&gt;<span style="color:red;">hyperlocal is an adjective that relates to or focuses on matters concerning a small community</span>&lt;/p&gt;</p>
+		</div>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1>Exercise 1</h1>
+			<h2>describing your place in pseudocode</h2>
+		</div>
+	</section>
+	
+	<section class="slide divider">
+		<figure>
+			<img src="media/pseudocode.jpeg" alt="">
+		</figure>
+		<footer>
+			photo taken during Hackers & Designers Summercamp 2023
+		</footer>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1>Exercise 2</h1>
+			<h2>translate your pseudocode into <i>real</i> code</h2>
+		</div>
+	</section>
+
+
+
+
+	<section class="slide divider">
+		<div class="text">
+			<h1 style="text-transform: uppercase;">CSS</h1>
+			<h1>Cascading Style Sheets</h1>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<p>CSS is a language used to describe how the elements within an HTML documented should be rendered on screen.</p>
+			<p>
+			As the “cascading” in CSS suggests, the styling rules will overwrite one another based on its inherent hierarchy and order of appearance (when there are conflicting rulesets, the last one overwrites what came before).
+			</p>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h2>Anatomy of a CSS ruleset</h2>
+			<div class="white-box">
+				<span class="green">p</span> { <br>
+					<span class="grey-box"><span class="blue">color</span>: <span class="red">red</span>;</span><br>
+				}
+				<br><br>
+				<span class="green">= selector</span><br>
+				<span class="grey-box">= declaration</span><br>
+				<span class="blue">= property</span><br>
+				<span class="red">= property value</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h2>Types of selectors</h2>
+			<ul>
+				<li>Element selector → p { }</li>
+				<li>Class selector → .special { }</li>
+				<li>ID selector → #snowflake { } </li>
+				<li>Pseudo-class selector → a:hover { } </li>
+			</ul>
+
+		</div>
+	</section>
+
+
+	<section class="slide">
+		<div class="text">
+			<h2>Thinking in- and outside the box</h2>
+			<div class="box1">
+				<div class="box2">
+					<p>This box has a blue dashed border. It also has a margin (empty space outside of the border in relation to its parent box) and padding (empty space inside the border, indicating the distance from any child content)</p>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h2>Display property</h2>
+			<div class="box1 stacked">
+				<div class="box2">
+					
+				</div>
+				<div class="box2">
+					
+				</div>
+				<div class="box2">
+					
+				</div>
+			</div>
+			<div class="box1 grid">
+				<div class="box2">
+					
+				</div>
+				<div class="box2">
+					
+				</div>
+				<div class="box2">
+					
+				</div>
+			</div>
+
 		</div>
 	</section>
 

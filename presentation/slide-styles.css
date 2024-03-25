@@ -5,12 +5,13 @@ Note: This was adapted from http://motsuka.com/web-typography-workshop
   --pad: 1em;
   --size-small: 0.6em;
   --height-imgmax: 70vh;
-  --grey: rgb(200 200 200);
 }
 
 body{
   line-height: 1.35;
   font-size: 1.5rem;
+  background-color: var(--bgcolor);
+  color: var(--wood);
 }
 main{
   max-width: none;
@@ -69,7 +70,7 @@ sup{
 }
 
 /* .slide.divider h2{
-  border: 1px solid var(--grey);
+  border: 1px solid var(--brown);
   border-radius: 50%;
 } */
 
@@ -78,7 +79,7 @@ sup{
   position: absolute;
   bottom: var(--pad);
   left: 0;
-  border-top: 1px solid var(--grey);
+  border-top: 1px solid var(--brown);
   padding-top: var(--pad);
   font-size: var(--size-small);
 }
@@ -154,7 +155,7 @@ table{
 th{
   text-align: left;
   font-weight: normal;
-  border-bottom: 1px solid var(--grey);
+  border-bottom: 1px solid var(--brown);
 }
 td, th{
   padding: 0.5em;
@@ -169,3 +170,45 @@ td:first-child, th:first-child{
   padding-left: 0;
 }
 
+.white-box {
+  background-color: white;
+  padding: 1rem;
+}
+.green {
+  color: green;
+}
+.grey-box {
+  background-color: lightgrey;
+  padding: 0.2rem 0.5rem;
+}
+.blue {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.box1 {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.box2 {
+  background-color: white;
+  margin: 1rem;
+  padding: 2rem;
+  border: 2px blue dashed;
+}
+.box2 p {
+  background-color: lightgrey;
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
