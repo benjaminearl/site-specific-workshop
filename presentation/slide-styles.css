@@ -212,3 +212,62 @@ td:first-child, th:first-child{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+table, tr, td {
+  border: 1px black solid;
+}
+
+table {
+  width: 1000px;
+  border-collapse:collapse;
+}
+
+td.symbol {
+  padding: 5px;
+}
+
+td.word {
+  font-weight: bold;
+}
+
+.hosting-box1 {
+  border: 3px dashed blue;
+  text-align: center;
+  margin:10px;
+  margin: 1rem;
+}
+
+.hosting-box2 {
+  border: 1px solid grey;
+  text-align: center;
+  margin:10px;
+  margin: 1rem;
+}
+
+.hosting-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hosting-grid .box2 {
+  border: 1px solid grey;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  margin: 0 1rem;
+}
+
+.hosting-grid .box2 p {
+  background-color: rgba(0,0,0,0);
+  padding: none;
+}
+
+.hosting-grid .hosting-box2 {
+  margin: 0 1rem;
+}
+
+.hosting-box3 {
+  border: 3px solid blue;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  margin: 1rem;
+}

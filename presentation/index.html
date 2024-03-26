@@ -21,7 +21,7 @@
 	<section class="slide divider">
 			<div class="text">
 				<h1>Site-specfic Web</h1>
-				<h2>an introduction to making placeful websites</h2>
+				<h2>An introduction to making placeful websites</h2>
 			</div>
 			<footer>
 				Kirsten Spruit and Benjamin Earl, 29th & 30th March 2024, Topolò.
@@ -315,8 +315,276 @@
 	</section>
 
 
+	<section class="slide divider">
+		<div class="text">
+			<h1>Site-specfic Web</h1>
+			<h2>An introduction to making placeful websites<br> Day 2</h2>
+			
+		</div>
+		<footer>
+			Kirsten Spruit and Benjamin Earl, 29th & 30th March 2024, Topolò.
+		</footer>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1>Incomplete guide to Hosting</h1>
+		</div>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<p>Langage of hosting<br>
+				<small>(borrowed from <a href="https://fruitful.school/" target="_blank">Fruitful Schools</a> guide to hosting with edits)</small>
+			</p>
+		<table>
+			<tbody><tr>
+			  <td class="symbol">📝</td>
+			  <td class="word">website</td>
+			  <td>a file or a bundle of files living on a server somewhere</td>
+			</tr>
+			<tr>
+				<td class="symbol">🖥</td>
+				<td class="word">server</td>
+				<td>a computer that’s <s>always</s> connected to the internet, so when someone types your URL into a browser, the server will offer up your website. usually you have to pay for a server, also called “hosting” or a “host.” <span class="blue">however, self-hosting is also an option</span></td>
+			  </tr>
+			  <tr>
+				<td class="symbol">📍</td>
+				<td class="word">IP</td>
+				<td>“internet protocol” address, which is a unique string of numbers that’s an address for any device connected to the internet which other machines use to find that device—whether it's your home router, your computer, your cellphone, or a server<br><br><span class="example"><a href="http://198.74.60.197/">198.74.60.197</a>, 10.0.1.18</span></td>
+			  </tr>
+			  <tr>
+				<td class="symbol">〰️</td>
+				<td class="word">domain</td>
+				<td>a <s>understandable</s> human-readable piece of language that points to an IP address<br><br><span class="example"><a href="https://robidacollective.com/">robidacollective.com</a>, <a href="http://special.fish">special.fish</a></span></td>
+			  </tr>
+		  </tbody></table>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<p>Langage of hosting<br>
+				<small>(borrowed from <a href="https://fruitful.school/" target="_blank">Fruitful Schools</a> guide to hosting with edits)</small>
+			</p>
+			<table>
+				<tbody>
+					<tr>
+						
+						<td class="symbol">〰️/➿<br>
+						</td><td class="word">URL</td>
+						<td>“universal resource location” which is the specific address to a specific web page.<br><br><span class="example"><a href="https://robidacollective.com/projects/robida-magazine">https://robidacollective.com/projects/robida-magazine</a></span></td>
+					  </tr>
+					  <tr>
+						<td class="symbol">💁🖥‍<br>
+						</td><td class="word">hosting provider</td>
+						<td>a business that handles providing servers / web hosting<br><br>
+						<a href="https://greenhost.net/">greenhost.net</a>, <a href="https://www.dreamhost.com/">dreamhost.com</a></td>
+					  </tr>
+					  <tr>
+						<td class="symbol">💁〰️<br>
+						</td><td class="word">domain name registrar</td>
+						<td>a business that handles the reservation of domain names as well as the assignment of IP addresses for those domain names.<br><br><span class="example"><a href="http://name.com">name.com</a>, <a href="https://iwantmyname.com">iwantmyname.com</a>, <a href="http://namecheap.com">namecheap.com</a>, and <a href="http://gandi.net">gandi.net</a></span>
+						</td>
+					  </tr>
+					  <tr>
+						<td class="symbol">📚
+						  <br><br>
+						  📗📕📘<br><br>
+							〰️📍<br>
+							〰️📍<br>
+							〰️📍<br>
+						</td><td class="word">DNS</td>
+						<td>“domain name system” which is like all the phonebooks of the entire internet</td>
+					  </tr>
+			</tbody>
+			</table>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<p>Langage of hosting<br>
+				<small>(borrowed from <a href="https://fruitful.school/" target="_blank">Fruitful Schools</a> guide to hosting with edits)</small>
+			</p>
+			<table>
+				<tbody>
+					<tr>
+						<td class="symbol">📗
+						</td><td class="word">nameserver</td>
+						<td>
+						  a single phonebook that is owned by the hosting provider that lists all the domain names associated with its customers
+						</td>
+					  </tr>
+					  <tr>
+						<td class="symbol">〰️📍
+						</td><td class="word">DNS record</td>
+						<td>
+						  a line in the metaphorical phonebook
+						</td>
+					  </tr>
+					  <tr>
+						<td class="symbol">🌐<br>
+						</td><td class="word">TLD</td>
+						<td>a “top-level domain” is the rightmost part of a domain name such as <i>.com</i>. certain TLDs are reserved for specific geographic areas or societal services<br><br><span class="example">Other examples include .org, .net, .school, etc. New TLDs are added every year, see this <a href="https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains">list on Wikipedia</a>. Google around for the latest.</span>
+						</td>
+					  </tr>
+			</tbody>
+			</table>
+		</figure>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h2>What happens when you type in <a href="https://robidacollective.com/">robidacollective.com</a></h2>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<div class="hosting-box1">
+			<p>robidacollective.com</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<div class="hosting-box1">
+			<p>robidacollective.com</p>
+			</div>
+			<div class="hosting-box2">
+				<p>94.23.66.84</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<div class="hosting-box1">
+			<p>robidacollective.com</p>
+			</div>
+			<div class="hosting-box2">
+				<p>94.23.66.84</p>
+			</div>
+			<div class="hosting-grid">
+				<div class="hosting-box2">
+					<p>📄</p>
+				</div>
+				<div class="hosting-box2">
+					<p>📄</p>
+				</div>
+				<div class="hosting-box2">
+					<p>📄</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<div class="hosting-box1">
+				<p>robidacollective.com</p>
+			</div>
+			<div class="hosting-box2">
+				<p>94.23.66.84</p>
+			</div>
+			<div class="hosting-grid">
+				<div class="hosting-box2">
+					<p>📄</p>
+				</div>
+				<div class="hosting-box2">
+					<p>📄</p>
+				</div>
+				<div class="hosting-box2">
+					<p>📄</p>
+				</div>
+			</div>
+			<div class="hosting-box3">
+				<p>robidacollective.com</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
+			<h2>Simple and Free hosting:</h2>
+			<h2><a href="https://pages.github.com/" target="_blank">Github Pages</a></h2>
+		</div>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1>Situated Hosting<br>
+			Poetic Hosting</h1>
+		</div>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<img src="media/data-centre.jpeg" alt="" style="width:800px;">
+		</figure>
+		<footer>
+			<p>generic image of the interior of a data centre</p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<img src="media/raspi.png" alt="" style="width:600px;">
+		</figure>
+		<footer>
+			<p>Raspberry Pi, a single-board computer that can host a website, amongst other things</p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<img src="media/solar-powered.png" alt="" style="width:600px;">
+		</figure>
+		<footer>
+			<p>solar powering the Raspberry Pi hosting the files of <a href="https://extrapractice.space/">extrapractice.space</a></p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<img src="media/ESP32_1.png" alt="" style="width:600px;">
+		</figure>
+		<footer>
+			<p>An ESP-32 module that can host a 1MB website that is not connected to the internet</p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<figure>
+			<img src="media/website-in-field.png" alt="" style="width:600px;">
+		</figure>
+		<footer>
+			<p>This ESP module was used to host a website about a field, in a field.</p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<figure class="img-group">					
+			<div class="img"><img src="media/situated-website.jpg" alt=""></div>
+			<div class="img"><img src="media/situated-website3.jpg" alt=""></div>
+			
+	</figure>
+		<footer>
+			<p>The Robida website in the Robida HQ, Topolò</p>
+		</footer>
+	</section>
+
+	<section class="slide">
+		<figure>					
+			<img src="media/lan-party.jpeg" alt="">
+		</figure>
+		<footer>
+			<p>LAN party!</p>
+		</footer>
+	</section>
 
 </main>
 </body>
 </html>
-
