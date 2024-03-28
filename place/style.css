@@ -25,7 +25,7 @@ body {
     border: 2px solid rgb(152, 104, 65);
     width: 20%;
     aspect-ratio: 1 / 1;
-    position: fixed;
+    position: absolute;
     top: 40%;
     left: 20%;
     cursor: pointer;

@@ -13,6 +13,7 @@ Note: This was adapted from http://motsuka.com/web-typography-workshop
   --yellow: #fceb7c;
   --green: #3e8044;
   --red: #f54538;
+  --grey: #a4a4a4;
 }
 
 body{
@@ -201,6 +202,10 @@ td{
 }
 .yellow {
   background-color: var(--yellow);
+}
+
+.grey {
+  color: var(--grey);
 }
 
 .box1 {
