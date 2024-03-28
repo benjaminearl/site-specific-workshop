@@ -245,6 +245,32 @@
 
 	<section class="slide">
 		<div class="text">
+			<h2>Ways of styling</h2>
+			<div class="text">
+				<p>
+					Styling can be done in-line (1), internal inside the &lt;head&gt; of an html file (2) and external inside a CSS file (3).
+				</p>
+				<p>1) &lt;p style="color: red;"&gt;<span style="color:red;">hyperlocal is an adjective that relates to or focuses on matters concerning a small community</span>&lt;/p&gt;</p>
+				<p>
+					2)
+					&lt;style&gt; <br>
+					p {<br>
+						color: red;<br>
+					}<br>
+					&lt;/style&gt;
+				</p>
+				<p>
+					3) p {<br>
+						color: red;<br>
+					}<br>
+					(make sure to link the stylesheet in the &lt;head&gt;)
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="slide">
+		<div class="text">
 			<h2>Anatomy of a CSS ruleset</h2>
 			<div class="white-box">
 				<span class="green">p</span> { <br>
@@ -266,6 +292,7 @@
 				<li>Element selector → p { }</li>
 				<li>Class selector → .special { }</li>
 				<li>ID selector → #snowflake { } </li>
+				<li>Type selector → span { }</li>
 				<li>Pseudo-class selector → a:hover { } </li>
 			</ul>
 
@@ -278,7 +305,7 @@
 			<h2>Thinking in- and outside the box</h2>
 			<div class="box1">
 				<div class="box2">
-					<p>This box has a blue dashed border. It also has a margin (empty space outside of the border in relation to its parent box) and padding (empty space inside the border, indicating the distance from any child content)</p>
+					<p>This box has a blue dashed <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border" target="_blank">border</a>. It also has a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank">margin</a> (empty space outside of the border in relation to its parent box) and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding" target="_blank">padding</a> (empty space between the border and content)</p>
 				</div>
 			</div>
 
@@ -299,6 +326,7 @@
 					
 				</div>
 			</div>
+			<p>display: block;</p>
 			<div class="box1 grid">
 				<div class="box2">
 					
@@ -310,10 +338,44 @@
 					
 				</div>
 			</div>
+			<p>display: grid;<br>
+				grid-template-columns: 1fr 1fr 1fr;</p>
+			<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display" target="_blank">More on display options</a>
 
 		</div>
 	</section>
 
+	<section class="slide">
+		<div class="text">
+			<h2>Sizing</h2>
+			<div class="box1" style="width:300px;height:200px;">
+				
+			</div>
+			<p>width: 300px;<br>
+			height: 200px;</p>
+			<div class="box1" style="width:30vw;height:20vh;">
+
+			</div>
+			<p>width: 30vw;<br>
+				height: 20vh;</p>
+			<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS" target="_blank">More on sizing</a>
+
+		</div>
+	</section>
+
+	<section class="slide divider">
+		<div class="text">
+			<h1>Exercise 3</h1>
+			<h2>style your place using CSS</h2>
+		</div>
+	</section>
+
+	<section class="slide divider end">
+		<div class="text">
+			<h1>End of Day 1</h1>
+			<h2>A domani!</h2>
+		</div>
+	</section>
 
 	<section class="slide divider">
 		<div class="text">
